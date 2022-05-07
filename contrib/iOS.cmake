@@ -30,6 +30,13 @@
 #  A macro used to find executable programs on the host system, not within the iOS environment.
 #  Thanks to the android-cmake project for providing the command
 
+# 配置 openssl 
+set(OPENSSL_ROOT_DIR /usr/local/Cellar/openssl@3/3.0.1/)
+set(OPENSSL_LIBRARIES /usr/local/Cellar/openssl@3/3.0.1/lib/) 
+set(OPENSSL_SSL_LIBRARY /usr/local/Cellar/openssl@3/3.0.1/lib/libssl.a) 
+set(OPENSSL_CRYPTO_LIBRARY /usr/local/Cellar/openssl@3/3.0.1/lib/libcrypto.a)
+set(OPENSSL_INCLUDE_DIR /usr/local/Cellar/openssl@3/3.0.1/include)
+
 # Standard settings
 set (CMAKE_SYSTEM_NAME Darwin)
 set (CMAKE_SYSTEM_VERSION 1)
