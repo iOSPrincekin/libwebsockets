@@ -177,9 +177,9 @@ int main(int argc, const char **argv)
 //		info.ssl_cert_filepath = "/Users/lee/Downloads/libwebsockets-main/minimal-examples-lowlevel/ws-server/minimal-ws-server/localhost-100y.cert";
 //		info.ssl_private_key_filepath = "/Users/lee/Downloads/libwebsockets-main/minimal-examples-lowlevel/ws-server/minimal-ws-server/localhost-100y.key";
    //     info.ssl_cert_filepath = "/Users/lee/Desktop/Develop/apache-tomcat-9.0.62/key/.keystore";
-        info.ssl_cert_filepath = " /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/server-cert.pem";
-        info.ssl_private_key_filepath = " /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/server-key.pem";
-        info.ssl_ca_filepath =" /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/ca.pem";
+        info.ssl_cert_filepath = "/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/server-cert.pem";
+        info.ssl_private_key_filepath = "/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/server-key.pem";
+        info.ssl_ca_filepath ="/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/ca.pem";
 	}
 #endif
 

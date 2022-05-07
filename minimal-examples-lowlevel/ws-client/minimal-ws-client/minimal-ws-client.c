@@ -243,13 +243,13 @@ int main(int argc, const char **argv)
      * CA to trust explicitly.
      */
     //info.client_ssl_ca_filepath = "/Users/lee/Downloads/libwebsockets-main/minimal-examples-lowlevel/ws-client/minimal-ws-client/libwebsockets.org.cer";
-    //info.client_ssl_ca_filepath = " /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-key.pem";
-   // info.client_ssl_ca_filepath = " /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-cert.pem";
+    //info.client_ssl_ca_filepath = "/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-key.pem";
+   // info.client_ssl_ca_filepath = "/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-cert.pem";
 
     
-    info.ssl_cert_filepath = " /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-cert.pem";
-    info.ssl_private_key_filepath = " /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-key.pem";
-    info.ssl_ca_filepath =" /Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/ca.pem";
+    info.ssl_cert_filepath = "/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-cert.pem";
+    info.ssl_private_key_filepath = "/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/client-key.pem";
+    info.ssl_ca_filepath ="/Users/lee/Desktop/TEST/websocket/libwebsockets/all-platform/libwebsockets/certs/ca.pem";
     
 #endif
 
